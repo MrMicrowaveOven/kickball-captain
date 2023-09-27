@@ -4,6 +4,7 @@ import {
 } from 'react-native';
 import PagerView from 'react-native-pager-view';
 import LineUp from './public/LineUp';
+import Field from './public/Field';
 
 function App(): JSX.Element {
 
@@ -13,7 +14,7 @@ function App(): JSX.Element {
         <LineUp/>
       </View>
       <View key="2">
-        {/* <ScoreBoard /> */}
+        <Field />
       </View>
     </PagerView>
   );
